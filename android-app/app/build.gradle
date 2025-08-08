@@ -22,6 +22,15 @@ android {
         }
         debug { debuggable true }
     }
+
+    // Thêm cho AGP 8.x
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
 }
 
 dependencies {
