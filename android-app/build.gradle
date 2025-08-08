@@ -1,0 +1,4 @@
+// Minimal top-level build.gradle to satisfy CI without wrapper
+allprojects {
+    repositories { google(); mavenCentral() }
+}
