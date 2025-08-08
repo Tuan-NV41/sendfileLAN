@@ -1,2 +1,1 @@
-// Top-level build file intentionally left minimal.
-// Repositories are declared in settings.gradle (FAIL_ON_PROJECT_REPOS).
+// Top-level build file intentionally minimal. Repositories in settings.gradle.
