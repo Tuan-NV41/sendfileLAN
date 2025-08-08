@@ -1,4 +1,2 @@
-// Minimal top-level build.gradle to satisfy CI without wrapper
-allprojects {
-    repositories { google(); mavenCentral() }
-}
+// Top-level build file intentionally left minimal.
+// Repositories are declared in settings.gradle (FAIL_ON_PROJECT_REPOS).
